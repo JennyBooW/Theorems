@@ -6,12 +6,19 @@
 -- structure Pos where
 --   succ ::
 --   pred : Nat
--- Define instances of Add, Mul, ToString, and OfNat that allow this version of Pos to be used conveniently.
+-- Define instances of Add, Mul, ToString, and OfNat that allow this version of
+-- Pos to be used conveniently.
+namespace Positive
+
+end Positive
+
 
 
 -- Even Numbers
 -- Define a datatype that represents only even numbers. Define instances of Add, Mul, and ToString that allow it to be used conveniently. OfNat requires a feature that is introduced in the next section.
+namespace Even
 
+end Even
 
 
 -- HTTP Requests
@@ -22,3 +29,5 @@
 -- ToString instance that makes it possible to debug them. Use a type class to
 -- associate different IO actions with each HTTP method, and write a test harness as
 -- an IO action that calls each method and prints the result.
+namespace Requests
+end Requests
